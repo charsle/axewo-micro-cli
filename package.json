@@ -1,0 +1,38 @@
+{
+  "name": "create-axewo-micro",
+  "version": "1.0.0",
+  "description": "Enterprise Micro Frontend CLI — Create Base Portal, Sub-App Template, or Core SDK with ease",
+  "main": "bin/index.js",
+  "bin": {
+    "create-axewo-micro": "./bin/index.js"
+  },
+  "files": [
+    "bin",
+    "README.md"
+  ],
+  "keywords": [
+    "micro-frontend",
+    "micro-app",
+    "vite",
+    "rspack",
+    "vue3",
+    "axewo",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charsle/axewo-micro-cli.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "node bin/index.js"
+  },
+  "dependencies": {
+    "degit": "^2.8.4",
+    "fs-extra": "^11.2.0",
+    "kolorist": "^1.8.0",
+    "prompts": "^2.4.2"
+  }
+}
